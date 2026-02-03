@@ -29,7 +29,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'seo-create=seo.generators:main',
+            'seo=seo.generators:main',
+            'seo-create=seo.generators:creer_projet_interactif',
         ],
     },
 )

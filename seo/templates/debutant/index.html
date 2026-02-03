@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ titre }} - Mon Projet Flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1> Mon Projet Flask</h1>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/a-propos">À propos</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container">
+        <h2>Bienvenue sur votre première application Flask !</h2>
+        <p>Cette application a été générée avec <strong>SEO Dev Env</strong>.</p>
+        
+        <div class="card">
+            <h3> Prochaines étapes</h3>
+            <ul>
+                <li>Personnalisez ce template dans <code>templates/index.html</code></li>
+                <li>Modifiez le style dans <code>static/style.css</code></li>
+                <li>Ajoutez de nouvelles routes dans <code>app.py</code></li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3> Ressources utiles</h3>
+            <ul>
+                <li><a href="https://flask.palletsprojects.com/" target="_blank">Documentation Flask</a></li>
+                <li><a href="https://jinja.palletsprojects.com/" target="_blank">Documentation Jinja2</a></li>
+            </ul>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Créé avec  en utilisant Flask</p>
+    </footer>
+</body>
+</html>
